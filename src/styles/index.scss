@@ -12,4 +12,14 @@
 
 */
 
+.lista{
+        padding-bottom: 40px;
+}
 
+#controls {
+    position: fixed;
+    /* right: 0; */
+    bottom: 0;
+    /* left: 0; */
+    z-index: 1030;
+}

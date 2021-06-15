@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export default function PlayList(props) {
 	return (
-		<div id="lista" className="card col-4 bg-dark text-white mb-3">
+		<div id="lista" className="container col-3 bg-dark text-white">
 			<div className="row justify-content-center align-items-center bg-dark text-white">
 				<div className="col bg-dark text-white">
 					<div className="list-group bg-dark text-white">

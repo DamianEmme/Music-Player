@@ -65,11 +65,11 @@ export default function Controls(props) {
 
 	return (
 		<>
-			<div className="row justify-content-center align-items-center">
-				<div className="col-4">
-					<div className="card col-4 bg-secondary fixed-bottom">
+			<div className="container col-3 bg-dark text-white">
+				<div className="row">
+					<div className="controls w-100">
 						<div className="card">
-							<div className="card-body bg-secondary text-center">
+							<div className="card-body bg-dark text-center">
 								<audio
 									ref={audio}
 									src={
@@ -78,12 +78,12 @@ export default function Controls(props) {
 									}
 								/>
 								<div className="row align-items-left">
-									<div className="col-2">
-										<div className="align-items-left">
+									<div className="row ml-1">
+										<div className="row">
 											<div
 												ref={loopButton}
 												onClick={loop}>
-												<i className="fas fa-redo-alt"></i>
+												<i className="fas fa-redo-alt mx-3"></i>
 											</div>
 											<div
 												ref={randomButton}
